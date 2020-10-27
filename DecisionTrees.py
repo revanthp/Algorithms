@@ -8,6 +8,11 @@
 #   - tree model
 
 # Add in unit testing methods
+import numpy as np
+# import pandas as pd
+
+def entropy(p):
+  return -np.sum(p * np.log2(p) + (1-p) * np.log2(1-p))
 
 def calculate_entropy(arr, bkpt):
   pass
