@@ -1,4 +1,4 @@
-# implementing a decision trees
+# Decision Tree Implementation
 # input 
 #   parameters:
 #   - tree_depth
@@ -6,6 +6,8 @@
 #   - min_sample_split
 # output :
 #   - tree model
+
+# Add in unit testing methods
 
 def calculate_entropy(arr, bkpt):
   pass
